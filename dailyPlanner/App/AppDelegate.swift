@@ -4,15 +4,30 @@
 //
 //  Created by 123 on 10.01.2024.
 //
-
+import CoreData
 import UIKit
+
+
+      
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+   
+    lazy var persistentContainer: NSPersistentContainer = {
+            let container = NSPersistentContainer(name: "Note")
+            container.loadPersistentStores { (storeDescription, error) in
+                if let error = error as NSError? {
+                    
+                }
+            }
+            return container
+        }()
+
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
         // Override point for customization after application launch.
         return true
     }

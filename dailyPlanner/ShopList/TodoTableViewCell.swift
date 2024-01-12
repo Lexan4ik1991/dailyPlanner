@@ -13,8 +13,8 @@ protocol TodoCellDelegate: AnyObject {
 }
 
 class TodoTableViewCell: UITableViewCell {
-    @IBOutlet weak var toDoLabel: UILabel!
-    @IBOutlet weak var toDoButton: UIButton!
+        @IBOutlet weak var toDoLabel: UILabel!
+        @IBOutlet weak var toDoButton: UIButton!
     
     weak var delegate: TodoCellDelegate?
     

@@ -7,24 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D6FDAD92B50A4AF0077EBFA /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6FDAD82B50A4AF0077EBFA /* CalculatorViewController.swift */; };
 		9D71BD492B4EB783003C3CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D71BD482B4EB783003C3CDB /* AppDelegate.swift */; };
 		9D71BD4B2B4EB783003C3CDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D71BD4A2B4EB783003C3CDB /* SceneDelegate.swift */; };
 		9D71BD4D2B4EB783003C3CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D71BD4C2B4EB783003C3CDB /* ViewController.swift */; };
 		9D71BD502B4EB783003C3CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D71BD4E2B4EB783003C3CDB /* Main.storyboard */; };
 		9D71BD522B4EB792003C3CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D71BD512B4EB792003C3CDB /* Assets.xcassets */; };
 		9D71BD552B4EB792003C3CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D71BD532B4EB792003C3CDB /* LaunchScreen.storyboard */; };
+		9DBD404C2B516E1000F88E40 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBD404B2B516E1000F88E40 /* CoreData.framework */; };
+		9DBD40662B518A8200F88E40 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD40652B518A8200F88E40 /* NoteViewController.swift */; };
+		9DBD40682B518B8700F88E40 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD40672B518B8700F88E40 /* NoteModel.swift */; };
+		9DBD406A2B518BD000F88E40 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD40692B518BD000F88E40 /* DatabaseManager.swift */; };
+		9DBD406D2B518F0D00F88E40 /* AppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD406B2B518F0D00F88E40 /* AppModel.xcdatamodeld */; };
 		9DE7DE8D2B4EBCEB003905B7 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7DE8C2B4EBCEB003905B7 /* TabBar.storyboard */; };
 		9DE7DE912B4EBEF5003905B7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7DE902B4EBEF5003905B7 /* TabBarController.swift */; };
 		9DE7DEA12B4EE58A003905B7 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7DEA02B4EE58A003905B7 /* Todo.swift */; };
 		9DE7DEA32B4EE5A3003905B7 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7DEA22B4EE5A3003905B7 /* TodoTableViewCell.swift */; };
 		9DE7DEA52B4EE5CC003905B7 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7DEA42B4EE5CC003905B7 /* TodoViewController.swift */; };
-		9DE7DEA82B4FC9BD003905B7 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7DEA72B4FC9BD003905B7 /* NoteViewController.swift */; };
-		9DE7DEAD2B4FD6B3003905B7 /* 20791.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7DEAF2B4FD6B3003905B7 /* 20791.otf */; };
 		9DE7DEB32B4FE0E0003905B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7DEB22B4FE0E0003905B7 /* GoogleService-Info.plist */; };
-		9DE7DEB62B50486B003905B7 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7DEB52B50486A003905B7 /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B6450FCCE40026DDB4A1163 /* Pods-dailyPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyPlanner.debug.xcconfig"; path = "Target Support Files/Pods-dailyPlanner/Pods-dailyPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		7F01A7669BDFEA6983CA184C /* Pods-dailyPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyPlanner.release.xcconfig"; path = "Target Support Files/Pods-dailyPlanner/Pods-dailyPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		9D6FDAD82B50A4AF0077EBFA /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		9D71BD452B4EB783003C3CDB /* dailyPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dailyPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D71BD482B4EB783003C3CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D71BD4A2B4EB783003C3CDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,16 +39,17 @@
 		9D71BD512B4EB792003C3CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D71BD542B4EB792003C3CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D71BD562B4EB792003C3CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DBD404B2B516E1000F88E40 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9DBD40652B518A8200F88E40 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		9DBD40672B518B8700F88E40 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		9DBD40692B518BD000F88E40 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		9DBD406C2B518F0D00F88E40 /* AppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppModel.xcdatamodel; sourceTree = "<group>"; };
 		9DE7DE8C2B4EBCEB003905B7 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
 		9DE7DE902B4EBEF5003905B7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		9DE7DEA02B4EE58A003905B7 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		9DE7DEA22B4EE5A3003905B7 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 		9DE7DEA42B4EE5CC003905B7 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
-		9DE7DEA72B4FC9BD003905B7 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
-		9DE7DEB02B4FD6BC003905B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/20791.otf; sourceTree = "<group>"; };
-		9DE7DEB12B4FD6C8003905B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/20791.otf; sourceTree = "<group>"; };
 		9DE7DEB22B4FE0E0003905B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9DE7DEB52B50486A003905B7 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBD404C2B516E1000F88E40 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +69,8 @@
 			children = (
 				9D71BD472B4EB783003C3CDB /* dailyPlanner */,
 				9D71BD462B4EB783003C3CDB /* Products */,
+				9DBD404A2B516E0F00F88E40 /* Frameworks */,
+				AD75C8E945384C3A0693278B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,8 +85,7 @@
 		9D71BD472B4EB783003C3CDB /* dailyPlanner */ = {
 			isa = PBXGroup;
 			children = (
-				9DE7DEB42B50484A003905B7 /* Calculator */,
-				9DE7DEA92B4FD635003905B7 /* fonts */,
+				9DE7DEC22B508A8C003905B7 /* Calculator */,
 				9DE7DEA62B4F1565003905B7 /* NoteBook */,
 				9DE7DE9F2B4EE520003905B7 /* ShopList */,
 				9DE7DE8B2B4EBCDA003905B7 /* TabBar */,
@@ -108,6 +117,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		9DBD404A2B516E0F00F88E40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DBD404B2B516E1000F88E40 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9DE7DE8B2B4EBCDA003905B7 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,25 +147,29 @@
 		9DE7DEA62B4F1565003905B7 /* NoteBook */ = {
 			isa = PBXGroup;
 			children = (
-				9DE7DEA72B4FC9BD003905B7 /* NoteViewController.swift */,
+				9DBD40652B518A8200F88E40 /* NoteViewController.swift */,
+				9DBD40672B518B8700F88E40 /* NoteModel.swift */,
+				9DBD40692B518BD000F88E40 /* DatabaseManager.swift */,
+				9DBD406B2B518F0D00F88E40 /* AppModel.xcdatamodeld */,
 			);
 			path = NoteBook;
 			sourceTree = "<group>";
 		};
-		9DE7DEA92B4FD635003905B7 /* fonts */ = {
+		9DE7DEC22B508A8C003905B7 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				9DE7DEAF2B4FD6B3003905B7 /* 20791.otf */,
-			);
-			path = fonts;
-			sourceTree = "<group>";
-		};
-		9DE7DEB42B50484A003905B7 /* Calculator */ = {
-			isa = PBXGroup;
-			children = (
-				9DE7DEB52B50486A003905B7 /* CalculatorViewController.swift */,
+				9D6FDAD82B50A4AF0077EBFA /* CalculatorViewController.swift */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		AD75C8E945384C3A0693278B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B6450FCCE40026DDB4A1163 /* Pods-dailyPlanner.debug.xcconfig */,
+				7F01A7669BDFEA6983CA184C /* Pods-dailyPlanner.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D71BD592B4EB792003C3CDB /* Build configuration list for PBXNativeTarget "dailyPlanner" */;
 			buildPhases = (
+				019EA2BF4CB69B7F1A4807A2 /* [CP] Check Pods Manifest.lock */,
 				9D71BD412B4EB783003C3CDB /* Sources */,
 				9D71BD422B4EB783003C3CDB /* Frameworks */,
 				9D71BD432B4EB783003C3CDB /* Resources */,
@@ -213,7 +235,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DE7DE8D2B4EBCEB003905B7 /* TabBar.storyboard in Resources */,
-				9DE7DEAD2B4FD6B3003905B7 /* 20791.otf in Resources */,
 				9D71BD552B4EB792003C3CDB /* LaunchScreen.storyboard in Resources */,
 				9D71BD522B4EB792003C3CDB /* Assets.xcassets in Resources */,
 				9D71BD502B4EB783003C3CDB /* Main.storyboard in Resources */,
@@ -223,20 +244,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		019EA2BF4CB69B7F1A4807A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dailyPlanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D71BD412B4EB783003C3CDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE7DEA82B4FC9BD003905B7 /* NoteViewController.swift in Sources */,
 				9D71BD4D2B4EB783003C3CDB /* ViewController.swift in Sources */,
+				9DBD406A2B518BD000F88E40 /* DatabaseManager.swift in Sources */,
 				9DE7DE912B4EBEF5003905B7 /* TabBarController.swift in Sources */,
 				9DE7DEA52B4EE5CC003905B7 /* TodoViewController.swift in Sources */,
 				9D71BD492B4EB783003C3CDB /* AppDelegate.swift in Sources */,
+				9DBD40662B518A8200F88E40 /* NoteViewController.swift in Sources */,
+				9DBD40682B518B8700F88E40 /* NoteModel.swift in Sources */,
 				9DE7DEA32B4EE5A3003905B7 /* TodoTableViewCell.swift in Sources */,
 				9D71BD4B2B4EB783003C3CDB /* SceneDelegate.swift in Sources */,
-				9DE7DEB62B50486B003905B7 /* CalculatorViewController.swift in Sources */,
+				9D6FDAD92B50A4AF0077EBFA /* CalculatorViewController.swift in Sources */,
 				9DE7DEA12B4EE58A003905B7 /* Todo.swift in Sources */,
+				9DBD406D2B518F0D00F88E40 /* AppModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,16 +306,6 @@
 				9D71BD542B4EB792003C3CDB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		9DE7DEAF2B4FD6B3003905B7 /* 20791.otf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DE7DEB02B4FD6BC003905B7 /* en */,
-				9DE7DEB12B4FD6C8003905B7 /* Base */,
-			);
-			name = 20791.otf;
-			path = ../../../../../Downloads;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -388,6 +427,7 @@
 		};
 		9D71BD5A2B4EB792003C3CDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6450FCCE40026DDB4A1163 /* Pods-dailyPlanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -418,6 +458,7 @@
 		};
 		9D71BD5B2B4EB792003C3CDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F01A7669BDFEA6983CA184C /* Pods-dailyPlanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +520,19 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCVersionGroup section */
+		9DBD406B2B518F0D00F88E40 /* AppModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9DBD406C2B518F0D00F88E40 /* AppModel.xcdatamodel */,
+			);
+			currentVersion = 9DBD406C2B518F0D00F88E40 /* AppModel.xcdatamodel */;
+			path = AppModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9D71BD3D2B4EB782003C3CDB /* Project object */;
 }
