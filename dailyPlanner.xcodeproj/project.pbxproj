@@ -24,7 +24,6 @@
 		9DE7DEA12B4EE58A003905B7 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7DEA02B4EE58A003905B7 /* Todo.swift */; };
 		9DE7DEA32B4EE5A3003905B7 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7DEA22B4EE5A3003905B7 /* TodoTableViewCell.swift */; };
 		9DE7DEA52B4EE5CC003905B7 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7DEA42B4EE5CC003905B7 /* TodoViewController.swift */; };
-		9DE7DEB32B4FE0E0003905B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7DEB22B4FE0E0003905B7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +48,6 @@
 		9DE7DEA02B4EE58A003905B7 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		9DE7DEA22B4EE5A3003905B7 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 		9DE7DEA42B4EE5CC003905B7 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
-		9DE7DEB22B4FE0E0003905B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +90,6 @@
 				9D71BD5D2B4EB7B0003C3CDB /* Main */,
 				9D71BD5C2B4EB7A0003C3CDB /* App */,
 				9D71BD512B4EB792003C3CDB /* Assets.xcassets */,
-				9DE7DEB22B4FE0E0003905B7 /* GoogleService-Info.plist */,
 				9D71BD532B4EB792003C3CDB /* LaunchScreen.storyboard */,
 				9D71BD562B4EB792003C3CDB /* Info.plist */,
 			);
@@ -238,7 +235,6 @@
 				9D71BD552B4EB792003C3CDB /* LaunchScreen.storyboard in Resources */,
 				9D71BD522B4EB792003C3CDB /* Assets.xcassets in Resources */,
 				9D71BD502B4EB783003C3CDB /* Main.storyboard in Resources */,
-				9DE7DEB32B4FE0E0003905B7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
