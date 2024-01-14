@@ -15,6 +15,7 @@ case divide
 }
 
 class CalculatorViewController: UIViewController {
+    
     // переменная для хранения числа, отображаемого на экране
     var numberOnScreen: Double = 0;
     // переменная для хранения предыдущего числа
