@@ -12,7 +12,9 @@ case add
 case subtract
 case multiply
 case divide
-}
+    case percent
+    case squaring
+    }
 
 class CalculatorViewController: UIViewController {
     
@@ -66,6 +68,12 @@ class CalculatorViewController: UIViewController {
             case 13:
                 label.text = "+"
                 operation = .add
+            case 17:
+                    label.text = "%"
+                    operation = .percent
+            case 18:
+                label.text = "X2"
+                operation = .squaring
             default:
                 break
             }
@@ -78,7 +86,7 @@ class CalculatorViewController: UIViewController {
             switch operation {
             case .divide:
                 // проверка на деление на ноль
-                guard numberOnScreen != 0 else { return }
+                guard numberOnScreen != 0 else { return label.text = "Enter not null" }
                 label.text = String(previousNumber / numberOnScreen)
             case .multiply:
                 label.text = String(previousNumber * numberOnScreen)
@@ -86,7 +94,12 @@ class CalculatorViewController: UIViewController {
                 label.text = String(previousNumber - numberOnScreen)
             case .add:
                 label.text = String(previousNumber + numberOnScreen)
-            }
+            case .percent:
+                    label.text = String(previousNumber * (numberOnScreen / 100))
+            case .squaring:
+                    label.text = String(numberOnScreen*numberOnScreen)
+                }
+            
         } else if sender.tag == 11 {
             // обработка нажатия на кнопку с символом "С"
             label.text = ""
